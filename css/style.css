@@ -1,7 +1,6 @@
 body,
 html {
     height: 100%;
-    background-color: #1d1d25;
 }
 
 * {
@@ -9,12 +8,13 @@ html {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    color: white;
+    scroll-behavior: smooth;
 }
 
 .fab,
 .fas {
     padding: 10px;
+    color: white;
 }
 
 
@@ -24,6 +24,7 @@ html {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    background-color: #1d1d25;
 }
 
 #socials {
@@ -51,6 +52,20 @@ html {
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
+}
+
+#about {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #1d1d25;
+}
+
+a[id="about"]:target~#arrow {
+    -webkit-transform: translateY(-500px);
+    transform: translateY(-500px);
 }
 
 @keyframes bounce {
