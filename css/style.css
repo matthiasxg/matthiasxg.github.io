@@ -12,14 +12,24 @@ html {
     color: white;
 }
 
-.home {
+.fab,
+.fas {
+    padding: 10px;
+}
+
+#home {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-.name {
+#socials {
+    margin-top: 15px;
+}
+
+#name {
     color: #1d1d25;
     box-sizing: border-box;
     border: 10px solid white;
