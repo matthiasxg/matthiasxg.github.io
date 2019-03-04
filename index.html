@@ -1,55 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Matthias Grill" />
-    <title>Matthias Grill</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/scroll.js"></script>
-  </head>
 
-  <body>
-    <div id="home">
-      <div id="info">
-        <div>
-          <h1 id="name">Hey! I'm Matthias</h1>
-        </div>
-        <div id="socials">
-          <a href="https://github.com/matthiasxg" target="_blank"
-            ><i class="fab fa-github fa-2x"></i
-          ></a>
-          <a href="https://t.me/matthiasxg" target="_blank"
-            ><i class="fab fa-telegram fa-2x"></i
-          ></a>
-          <a href="mailto:matthias@localhost.systems" target="_blank"
-            ><i class="fas fa-envelope fa-2x"></i
-          ></a>
-        </div>
-      </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Matthias Grill" />
+  <title>Matthias Grill</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/scroll.js"></script>
+</head>
 
+<body>
+  <div id="home">
+    <div id="info">
       <div>
-        <a href="#about"><i class="fas fa-angle-down fa-2x" id="arrow"></i></a>
+        <h1 id="name">Hey! I'm Matthias</h1>
+      </div>
+      <div id="socials">
+        <a href="https://github.com/matthiasxg" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://t.me/matthiasxg" target="_blank"><i class="fab fa-telegram fa-2x"></i></a>
+        <a href="mailto:matthias@localhost.systems" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
       </div>
     </div>
 
-    <div id="about">
-      <h1 id="aboutTopic">About me</h1>
-      <div id="content">
-        <div><h1>Facts</h1></div>
-        <div><h1>Skills</h1></div>
+    <div>
+      <a href="#about"><i class="fas fa-angle-down fa-2x" id="arrow"></i></a>
+    </div>
+  </div>
+
+  <div id="about">
+    <h1 id="aboutTopic">About me</h1>
+    <div id="content">
+      <div id="facts">
+        <h1>Facts</h1>
+        <div class="factItem">
+            <i class="fas fa-school fa-3x" style="color: #1d1d25"></i>
+          <h2>Computer science student</h2>
+          <h4>HTLBLuVA Wiener Neustadt</h4>
+        </div>
+        <div class="factItem">
+            <i class="fas fa-map-marker-alt fa-3x" style="color: #1d1d25"></i>
+          <h2>Currently living in Austria</h2>
+        </div>
+        <div class="factItem">
+          <i class="fas fa-battery-full fa-3x" style="color: #1d1d25"></i>
+          <h2>19 years old</h2>
+        </div>
+      </div>
+      <div id="skills">
+        <h1>Skills</h1>
+        <h2>C++</h2>
+        <h2>C#</h2>
+        <h2>Python</h2>
+        <h2>SQL</h2>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
