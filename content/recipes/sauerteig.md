@@ -40,4 +40,4 @@ draft = false
 - Sauerteig Ansatz ist nun fertig und kann zum Brot backen verwendet werden
 - Brot Rezept coming soon
 
-This recipe is by [Christina](https://www.backenmitchristina.at/blog/sauerteig/).
+> This recipe is by [Christina](https://www.backenmitchristina.at/blog/sauerteig/).

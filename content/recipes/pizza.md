@@ -6,8 +6,6 @@ tags = ["Italian", "Dinner"]
 draft = false
 +++
 
-> Special thanks to [Roemi](https://twitter.com/RoemiLol) for this recipe! 
-
 ## Zutaten gesamt:
 
 - 1kg Mehl (Tipo 00)
@@ -56,3 +54,5 @@ draft = false
 1. Ein wenig Mehl in eine Pfanne geben und Pizza vorbacken bis die Pizzza unten durch ist
 2. Pizza auf einen Grill Rost legen und mit Toppings belegen
 2. Anschließendin die Pizza in vorgeheizten Ofen (Max. Temperatur, Oberhitze), so weit oben wie möglich, geben
+
+> Special thanks to [Roemi](https://twitter.com/RoemiLol) for this recipe! 
