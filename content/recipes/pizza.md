@@ -6,6 +6,8 @@ tags = ["Italian", "Dinner"]
 draft = false
 +++
 
+> Special thanks to [Roemi](https://twitter.com/RoemiLol) for this recipe! 
+
 ## Zutaten gesamt:
 
 - 1kg Mehl (Tipo 00)
