@@ -18,3 +18,14 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
+
+params:
+  homeInfoParams:
+    Title: Hey, Chefs! 🧃
+    Content: Check out my **vegan** recipe collection. No ads, just delicious food. 🌱
+
+  socialIcons: # optional
+    - name: "GitHub"
+      url: "https://github.com/matthiasxg"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/matthias-grill-83686a213/"
