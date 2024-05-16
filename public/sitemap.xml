@@ -2,17 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://matthiasxg.github.io/tags/bread/</loc>
+    <lastmod>2024-05-16T15:24:12+02:00</lastmod>
+  </url><url>
     <loc>https://matthiasxg.github.io/</loc>
-    <lastmod>2024-05-16T14:46:14+02:00</lastmod>
+    <lastmod>2024-05-16T15:24:12+02:00</lastmod>
   </url><url>
-    <loc>https://matthiasxg.github.io/posts/pizza/</loc>
-    <lastmod>2024-05-16T14:46:14+02:00</lastmod>
+    <loc>https://matthiasxg.github.io/recipes/</loc>
+    <lastmod>2024-05-16T15:24:12+02:00</lastmod>
   </url><url>
-    <loc>https://matthiasxg.github.io/posts/</loc>
-    <lastmod>2024-05-16T14:46:14+02:00</lastmod>
+    <loc>https://matthiasxg.github.io/recipes/sauerteig/</loc>
+    <lastmod>2024-05-16T15:24:12+02:00</lastmod>
+  </url><url>
+    <loc>https://matthiasxg.github.io/tags/</loc>
+    <lastmod>2024-05-16T15:24:12+02:00</lastmod>
+  </url><url>
+    <loc>https://matthiasxg.github.io/tags/dinner/</loc>
+    <lastmod>2024-05-16T15:09:16+02:00</lastmod>
+  </url><url>
+    <loc>https://matthiasxg.github.io/tags/italian/</loc>
+    <lastmod>2024-05-16T15:09:16+02:00</lastmod>
+  </url><url>
+    <loc>https://matthiasxg.github.io/recipes/pizza/</loc>
+    <lastmod>2024-05-16T15:09:16+02:00</lastmod>
   </url><url>
     <loc>https://matthiasxg.github.io/categories/</loc>
   </url><url>
-    <loc>https://matthiasxg.github.io/tags/</loc>
+    <loc>https://matthiasxg.github.io/search/</loc>
   </url>
 </urlset>

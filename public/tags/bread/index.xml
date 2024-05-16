@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Recipe Collection</title>
-    <link>https://matthiasxg.github.io/</link>
-    <description>Recent content on Recipe Collection</description>
+    <title>Bread on Recipe Collection</title>
+    <link>https://matthiasxg.github.io/tags/bread/</link>
+    <description>Recent content in Bread on Recipe Collection</description>
     <generator>Hugo -- 0.126.1</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 May 2024 15:24:12 +0200</lastBuildDate>
-    <atom:link href="https://matthiasxg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://matthiasxg.github.io/tags/bread/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sauerteig</title>
       <link>https://matthiasxg.github.io/recipes/sauerteig/</link>
@@ -15,13 +15,6 @@
       <guid>https://matthiasxg.github.io/recipes/sauerteig/</guid>
       <description>Zutaten gesamt: 1 Gurkenglas 200g Roggenmehl 960 200g lauwarmes Wasser Dieses Rezept benötigt 5 Tage
 Tag 1 Glas mit Deckel (z.B. Gurkenglas) waschen 50g Roggenmehl und 50 lauwarmes Wasser in das Glas geben und gut verrühren Anschließen Deckel auf das Glas legen und in warmen, windstillen Bereich verstauen 24 Stunden warten Tag 2 50g Roggenmehl und 50 lauwarmes Wasser in das Glas geben und gut verrühren Anschließen Deckel auf das Glas legen und in warmen, windstillen Bereich verstauen 24 Stunden warten Tag 3 50g Roggenmehl und 50 lauwarmes Wasser in das Glas geben und gut verrühren Anschließen Deckel auf das Glas legen und in warmen, windstillen Bereich verstauen 24 Stunden warten Tag 4 50g Roggenmehl und 50 lauwarmes Wasser in das Glas geben und gut verrühren Anschließen Deckel auf das Glas legen und in warmen, windstillen Bereich verstauen 24 Stunden warten Tag 5 Sauerteig Ansatz ist nun fertig und kann zum Brot backen verwendet werden Brot Rezept coming soon This recipe is by Christina.</description>
-    </item>
-    <item>
-      <title>Pizza</title>
-      <link>https://matthiasxg.github.io/recipes/pizza/</link>
-      <pubDate>Thu, 16 May 2024 15:09:16 +0200</pubDate>
-      <guid>https://matthiasxg.github.io/recipes/pizza/</guid>
-      <description>Zutaten gesamt: 1kg Mehl (Tipo 00) 650ml Wasser 10g Germ 2-3 TL Salz Vortag - Poolish (Vorteig): Zutaten: 300g Mehl 300ml Waser 10g Germ Ablauf: 10g Germ in 300ml Wasser lösen 300g Mehl hinzugeben und umrühren Teig abdecken und eine Stunde bei Raumtemperatur gehen lassen Anschließend über die Nacht im Kühlschrank stellen (12 - 24 Stunden) Pizzatag: Zutaten: 700g Mehl 350ml Waser 2-3 TL Salz Ablauf: 2-3 TL Salz in 350ml Wasser geben Poolish (Vorteig) in das salzige Wasser geben Nach und nach 700g Mehl dazu geben Masse zu einem Teig formen und ca.</description>
     </item>
   </channel>
 </rss>
