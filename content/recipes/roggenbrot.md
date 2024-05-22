@@ -30,6 +30,7 @@ draft = false
 
 ### Zutaten:
 
+- 200g Sauerteigansatz (Vom Vorabend)
 - 425g Roggenmehl 960
 - 75g Weizenmehl 700
 - 15g Brotgewürz
