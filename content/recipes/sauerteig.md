@@ -38,6 +38,6 @@ draft = false
 ## Tag 5
 
 - Sauerteig Ansatz ist nun fertig und kann zum Brot backen verwendet werden
-- Brot Rezept coming soon
+- Hier findest du ein passendes [Brotrezept](/recipes/roggenbrot)
 
 > This recipe is by [Christina](https://www.backenmitchristina.at/blog/sauerteig/).
