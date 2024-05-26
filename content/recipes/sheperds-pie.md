@@ -2,7 +2,7 @@
 title = 'Sheperds Pie'
 date = 2024-05-26T09:42:36+02:00
 author = ["Me", "Bianca Zapatka"]
-tags = ["Italian", "Dinner"]
+tags = ["British", "Casserole", "Dinner"]
 draft = false
 +++
 
