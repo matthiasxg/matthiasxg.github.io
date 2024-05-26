@@ -36,7 +36,7 @@ draft = false
 #### Zusätzlich:
 
 - 500 g getrocknete Lasagneplatten
-- Veganer Käse (Pizzamix)
+- Veganer Käse (Pizza Mix Violife)
 
 ## Zubereitung
 
