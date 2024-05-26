@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://matthiasxg.github.io/tags/dinner/</loc>
+    <loc>https://matthiasxg.github.io/tags/british/</loc>
     <lastmod>2024-05-26T09:42:36+02:00</lastmod>
   </url><url>
-    <loc>https://matthiasxg.github.io/tags/italian/</loc>
+    <loc>https://matthiasxg.github.io/tags/casserole/</loc>
+    <lastmod>2024-05-26T09:42:36+02:00</lastmod>
+  </url><url>
+    <loc>https://matthiasxg.github.io/tags/dinner/</loc>
     <lastmod>2024-05-26T09:42:36+02:00</lastmod>
   </url><url>
     <loc>https://matthiasxg.github.io/</loc>
@@ -19,6 +22,9 @@
   </url><url>
     <loc>https://matthiasxg.github.io/tags/</loc>
     <lastmod>2024-05-26T09:42:36+02:00</lastmod>
+  </url><url>
+    <loc>https://matthiasxg.github.io/tags/italian/</loc>
+    <lastmod>2024-05-25T07:14:01+02:00</lastmod>
   </url><url>
     <loc>https://matthiasxg.github.io/recipes/lasagne/</loc>
     <lastmod>2024-05-25T07:14:01+02:00</lastmod>
