@@ -4,42 +4,63 @@
     <title>Tags on Recipe Collection</title>
     <link>https://matthiasxg.github.io/tags/</link>
     <description>Recent content in Tags on Recipe Collection</description>
-    <generator>Hugo -- 0.126.1</generator>
+    <generator>Hugo -- 0.144.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 May 2024 09:42:36 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 23 Feb 2025 21:55:36 +0100</lastBuildDate>
     <atom:link href="https://matthiasxg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Greek</title>
+      <link>https://matthiasxg.github.io/tags/greek/</link>
+      <pubDate>Sun, 23 Feb 2025 21:55:36 +0100</pubDate>
+      <guid>https://matthiasxg.github.io/tags/greek/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Noodles</title>
+      <link>https://matthiasxg.github.io/tags/noodles/</link>
+      <pubDate>Sun, 23 Feb 2025 21:55:36 +0100</pubDate>
+      <guid>https://matthiasxg.github.io/tags/noodles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tofu</title>
+      <link>https://matthiasxg.github.io/tags/tofu/</link>
+      <pubDate>Sun, 23 Feb 2025 21:55:36 +0100</pubDate>
+      <guid>https://matthiasxg.github.io/tags/tofu/</guid>
+      <description></description>
+    </item>
     <item>
       <title>British</title>
       <link>https://matthiasxg.github.io/tags/british/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 26 May 2024 09:42:36 +0200</pubDate>
       <guid>https://matthiasxg.github.io/tags/british/</guid>
       <description></description>
     </item>
     <item>
       <title>Casserole</title>
       <link>https://matthiasxg.github.io/tags/casserole/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 26 May 2024 09:42:36 +0200</pubDate>
       <guid>https://matthiasxg.github.io/tags/casserole/</guid>
       <description></description>
     </item>
     <item>
       <title>Dinner</title>
       <link>https://matthiasxg.github.io/tags/dinner/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 26 May 2024 09:42:36 +0200</pubDate>
       <guid>https://matthiasxg.github.io/tags/dinner/</guid>
       <description></description>
     </item>
     <item>
       <title>Italian</title>
       <link>https://matthiasxg.github.io/tags/italian/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 May 2024 07:14:01 +0200</pubDate>
       <guid>https://matthiasxg.github.io/tags/italian/</guid>
       <description></description>
     </item>
     <item>
       <title>Bread</title>
       <link>https://matthiasxg.github.io/tags/bread/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 May 2024 13:45:36 +0200</pubDate>
       <guid>https://matthiasxg.github.io/tags/bread/</guid>
       <description></description>
     </item>

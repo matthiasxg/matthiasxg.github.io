@@ -1,8 +1,10 @@
 baseURL: https://matthiasxg.github.io/
 languageCode: en-us
-paginate: 5
 title: Recipe Collection
 theme: ["PaperMod"]
+
+pagination:
+  pagerSize: 5
 
 menu:
   main:
