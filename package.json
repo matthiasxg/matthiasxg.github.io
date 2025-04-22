@@ -12,6 +12,7 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "@tsconfig/svelte": "^5.0.4",
+    "@types/animejs": "^3.1.13",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
     "svelte": "^5.23.1",
@@ -21,6 +22,7 @@
     "vite": "^6.3.1"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.4"
+    "@tailwindcss/vite": "^4.1.4",
+    "animejs": "^3.2.2"
   }
 }
