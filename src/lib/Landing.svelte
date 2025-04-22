@@ -4,7 +4,7 @@
     <div
         class="w-full h-full grid grid-cols-1 md:grid-cols-2 items-center text-regal-black"
     >
-        <div class="relative w-full sm:w-md mt-8 md:m-auto">
+        <div class="relative w-full my-16 ml-auto md:ml-16">
             <h1 class="pb-4 sm:pb-8">Allrounder.</h1>
             <h1 class="pb-4 sm:pb-8">Developer.</h1>
             <h1 class="pb-4 sm:pb-8">Student.</h1>
