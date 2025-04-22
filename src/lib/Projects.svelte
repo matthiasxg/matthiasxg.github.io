@@ -18,34 +18,42 @@
 </script>
 
 <div
-    class="w-screen h-screen flex flex-col items-center text-center text-regal-black bg-regal-white"
+    class="w-screen min-h-screen flex flex-col items-center text-center text-regal-black bg-regal-white px-4 sm:px-8"
 >
-    <h1 class="font-subheading text-6xl mb-32 mt-32">Projects.</h1>
-    <div class="flex items-center justify-center w-full">
-        <div class="grid grid-cols-2 gap-16 m-32">
+    <h1
+        class="font-subheading text-5xl sm:text-6xl mb-16 mt-16 sm:mb-32 sm:mt-32"
+    >
+        Projects.
+    </h1>
+    <div class="flex items-center justify-center w-full pb-16 sm:pb-32">
+        <div
+            class="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-16 w-full max-w-5xl px-4 sm:px-0"
+        >
             {#each projects as project}
                 <div
-                    class="relative w-md aspect-square p-4 flex flex-col justify-between items-center"
+                    class="relative w-full sm:w-md aspect-square p-4 flex flex-col justify-between items-center"
                 >
                     <span
-                        class="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-regal-black"
+                        class="absolute top-0 left-0 w-8 h-8 sm:w-16 sm:h-16 border-t-2 border-l-2 border-regal-black"
                     ></span>
                     <span
-                        class="absolute top-0 right-0 w-16 h-16 border-t-2 border-r-2 border-regal-black"
+                        class="absolute top-0 right-0 w-8 h-8 sm:w-16 sm:h-16 border-t-2 border-r-2 border-regal-black"
                     ></span>
                     <span
-                        class="absolute bottom-0 left-0 w-16 h-16 border-b-2 border-l-2 border-regal-black"
+                        class="absolute bottom-0 left-0 w-8 h-8 sm:w-16 sm:h-16 border-b-2 border-l-2 border-regal-black"
                     ></span>
                     <span
-                        class="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-regal-black"
+                        class="absolute bottom-0 right-0 w-8 h-8 sm:w-16 sm:h-16 border-b-2 border-r-2 border-regal-black"
                     ></span>
 
                     <h2
-                        class="font-heading text-3xl text-regal-black m-16 font-bold"
+                        class="font-heading text-2xl sm:text-3xl text-regal-black mt-8 mb-4 sm:m-16 font-bold"
                     >
                         {project.title}
                     </h2>
-                    <p class="flex-grow text-xl text-regal-black p-8">
+                    <p
+                        class="flex-grow text-base sm:text-xl text-regal-black px-4 pb-4 sm:p-8"
+                    >
                         {project.description}
                     </p>
                 </div>
