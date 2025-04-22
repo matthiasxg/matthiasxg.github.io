@@ -21,9 +21,12 @@
     class="w-screen min-h-screen flex flex-col items-center text-center text-regal-black bg-regal-white px-4 sm:px-8"
 >
     <h1
-        class="font-subheading text-5xl sm:text-6xl mb-16 mt-16 sm:mb-32 sm:mt-32"
+        class="font-subheading text-5xl sm:text-6xl mb-8 mt-16 sm:mb-16 sm:mt-32"
     >
         Projects.
+    </h1>
+    <h1 class="font-subheading text-xl mb-8 sm:mb-16">
+        Where I turned complex problems into elegant solutions.
     </h1>
     <div class="flex items-center justify-center w-full pb-16 sm:pb-32">
         <div
