@@ -10,7 +10,8 @@
 
   gsap.registerPlugin(ScrollTrigger);
 
-  const green_path_points = [
+  // --- Desktop Points ---
+  const green_path_points_desktop = [
     { x: "0%", y: "80%" },
     { x: "70%", y: "110%" },
     { x: "-20%", y: "160%" },
@@ -21,7 +22,7 @@
     { x: "50%", y: "360%" },
   ];
 
-  const blue_path_points = [
+  const blue_path_points_desktop = [
     { x: "70%", y: "0%" },
     { x: "30%", y: "50%" },
     { x: "70%", y: "100%" },
@@ -34,8 +35,30 @@
     { x: "50%", y: "360%" },
   ];
 
+  // --- Mobile Points ---
+  const green_path_points_mobile = [
+    { x: "-50%", y: "0%" },
+    { x: "-50%", y: "100%" },
+    { x: "-50%", y: "200%" },
+    { x: "-50%", y: "300%" },
+    { x: "-50%", y: "350%" },
+    { x: "50%", y: "380%" },
+    { x: "50%", y: "380%" },
+  ];
+
+  const blue_path_points_mobile = [
+    { x: "150%", y: "0%" },
+    { x: "150%", y: "100%" },
+    { x: "150%", y: "200%" },
+    { x: "150%", y: "300%" },
+    { x: "150%", y: "350%" },
+    { x: "50%", y: "380%" },
+    { x: "50%", y: "380%" },
+  ];
+
   let greenPathElement: SVGPathElement;
   let bluePathElement: SVGPathElement;
+  let isMobile = false;
 
   const getActualPoints = (points: { x: string; y: string }[]) => {
     return points.map((point) => ({
@@ -82,17 +105,28 @@
     path_element.style.strokeDashoffset = length.toString();
   };
 
-  onMount(() => {
+  const updatePaths = () => {
     if (!greenPathElement || !bluePathElement) return;
 
-    calculateAndSetPath(green_path_points, greenPathElement);
-    calculateAndSetPath(blue_path_points, bluePathElement);
+    const green_points = isMobile
+      ? green_path_points_mobile
+      : green_path_points_desktop;
+    const blue_points = isMobile
+      ? blue_path_points_mobile
+      : blue_path_points_desktop;
+
+    calculateAndSetPath(green_points, greenPathElement);
+    calculateAndSetPath(blue_points, bluePathElement);
 
     const greenPathLength = greenPathElement.getTotalLength();
     const bluePathLength = bluePathElement.getTotalLength();
 
     const greenInitialTarget = greenPathLength * (1 - 0.05);
     const blueInitialTarget = bluePathLength * (1 - 0.1);
+
+    gsap.killTweensOf(greenPathElement);
+    gsap.killTweensOf(bluePathElement);
+    ScrollTrigger.getAll().forEach((trigger) => trigger.kill()); // Kill scroll triggers too
 
     const initialTl = gsap.timeline({
       onComplete: setupScrollAnimations,
@@ -124,6 +158,7 @@
             start: "top",
             end: "bottom bottom",
             scrub: 1,
+            invalidateOnRefresh: true,
           },
         },
       );
@@ -139,22 +174,41 @@
             start: "top",
             end: "bottom bottom",
             scrub: 1,
+            invalidateOnRefresh: true,
           },
         },
       );
+      ScrollTrigger.refresh();
     }
+  };
+
+  onMount(() => {
+    if (!greenPathElement || !bluePathElement) return;
+
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
+
+    const handleMediaQueryChange = (
+      event: MediaQueryListEvent | MediaQueryList,
+    ) => {
+      isMobile = event.matches;
+      updatePaths();
+    };
+
+    handleMediaQueryChange(mediaQuery);
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
 
     const handleResize = () => {
-      calculateAndSetPath(green_path_points, greenPathElement);
-      calculateAndSetPath(blue_path_points, bluePathElement);
       ScrollTrigger.refresh();
     };
 
     window.addEventListener("resize", handleResize);
 
     return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
       window.removeEventListener("resize", handleResize);
       ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+      gsap.killTweensOf(greenPathElement);
+      gsap.killTweensOf(bluePathElement);
     };
   });
 </script>
