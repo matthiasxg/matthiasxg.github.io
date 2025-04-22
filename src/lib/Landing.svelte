@@ -1,10 +1,10 @@
 <div
-    class="w-screen h-screen flex items-center bg-regal-white text-regal-black font-heading text-6xl sm:text-7xl md:text-9xl font-bold p-4 sm:p-8 md:p-16"
+    class="w-screen h-screen flex items-center justify-center bg-regal-white text-regal-black font-heading text-6xl sm:text-7xl md:text-9xl font-bold p-4 sm:p-8 md:p-16"
 >
     <div
         class="w-full h-full grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-16 items-center text-regal-black"
     >
-        <div class="text-center text-left mb-8 mt-16 sm:mb-16 sm:mt-32">
+        <div class="text-left mt-8 md:mt-0">
             <h1 class="pb-4 sm:pb-8">Allrounder.</h1>
             <h1 class="pb-4 sm:pb-8">Developer.</h1>
             <h1 class="pb-4 sm:pb-8">Student.</h1>
