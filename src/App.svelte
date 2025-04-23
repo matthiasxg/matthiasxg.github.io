@@ -10,7 +10,6 @@
 
   gsap.registerPlugin(ScrollTrigger);
 
-  // --- Desktop Points ---
   const green_path_points_desktop = [
     { x: "0%", y: "80%" },
     { x: "70%", y: "110%" },
@@ -23,7 +22,7 @@
   ];
 
   const blue_path_points_desktop = [
-    { x: "70%", y: "0%" },
+    { x: "60%", y: "0%" },
     { x: "30%", y: "50%" },
     { x: "70%", y: "100%" },
     { x: "100%", y: "150%" },
@@ -35,30 +34,8 @@
     { x: "50%", y: "360%" },
   ];
 
-  // --- Mobile Points ---
-  const green_path_points_mobile = [
-    { x: "-50%", y: "0%" },
-    { x: "-50%", y: "100%" },
-    { x: "-50%", y: "200%" },
-    { x: "-50%", y: "300%" },
-    { x: "-50%", y: "350%" },
-    { x: "50%", y: "380%" },
-    { x: "50%", y: "380%" },
-  ];
-
-  const blue_path_points_mobile = [
-    { x: "150%", y: "0%" },
-    { x: "150%", y: "100%" },
-    { x: "150%", y: "200%" },
-    { x: "150%", y: "300%" },
-    { x: "150%", y: "350%" },
-    { x: "50%", y: "380%" },
-    { x: "50%", y: "380%" },
-  ];
-
   let greenPathElement: SVGPathElement;
   let bluePathElement: SVGPathElement;
-  let isMobile = false;
 
   const getActualPoints = (points: { x: string; y: string }[]) => {
     return points.map((point) => ({
@@ -108,15 +85,8 @@
   const updatePaths = () => {
     if (!greenPathElement || !bluePathElement) return;
 
-    const green_points = isMobile
-      ? green_path_points_mobile
-      : green_path_points_desktop;
-    const blue_points = isMobile
-      ? blue_path_points_mobile
-      : blue_path_points_desktop;
-
-    calculateAndSetPath(green_points, greenPathElement);
-    calculateAndSetPath(blue_points, bluePathElement);
+    calculateAndSetPath(green_path_points_desktop, greenPathElement);
+    calculateAndSetPath(blue_path_points_desktop, bluePathElement);
 
     const greenPathLength = greenPathElement.getTotalLength();
     const bluePathLength = bluePathElement.getTotalLength();
@@ -126,7 +96,7 @@
 
     gsap.killTweensOf(greenPathElement);
     gsap.killTweensOf(bluePathElement);
-    ScrollTrigger.getAll().forEach((trigger) => trigger.kill()); // Kill scroll triggers too
+    ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
 
     const initialTl = gsap.timeline({
       onComplete: setupScrollAnimations,
@@ -190,17 +160,17 @@
     const handleMediaQueryChange = (
       event: MediaQueryListEvent | MediaQueryList,
     ) => {
-      isMobile = event.matches;
       updatePaths();
     };
 
-    handleMediaQueryChange(mediaQuery);
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
-
     const handleResize = () => {
+      updatePaths();
       ScrollTrigger.refresh();
     };
 
+    updatePaths();
+
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
     window.addEventListener("resize", handleResize);
 
     return () => {
@@ -213,7 +183,9 @@
   });
 </script>
 
-<svg class="absolute top-0 left-0 w-full h-[400vh] pointer-events-none">
+<svg
+  class="absolute top-0 left-0 w-full h-[400vh] pointer-events-none hidden md:block"
+>
   <path
     bind:this={greenPathElement}
     id="green-spline"
