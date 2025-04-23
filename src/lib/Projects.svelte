@@ -18,19 +18,15 @@
 </script>
 
 <div
-    class="w-full min-h-screen flex flex-col items-center text-center text-regal-black bg-regal-white px-4 sm:px-8"
+    class="w-full min-h-screen flex flex-col items-center text-center text-regal-black bg-regal-white px-4"
 >
-    <h1
-        class="font-subheading text-5xl sm:text-6xl mb-8 mt-16 sm:mb-16 sm:mt-32"
-    >
-        Projects.
-    </h1>
-    <h1 class="font-subheading text-xl mb-8 sm:mb-16">
+    <h1 class="font-subheading text-5xl sm:text-6xl mb-16 mt-32">Projects.</h1>
+    <h1 class="font-subheading text-xl mb-32 sm:mb-16">
         Where I turned complex problems into elegant solutions.
     </h1>
-    <div class="flex items-center justify-center w-full pb-16 sm:pb-32">
+    <div class="flex items-center justify-center w-full">
         <div class="w-full md:max-w-5xl mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                 {#each projects as project}
                     <div class="aspect-square w-full">
                         <div class="relative w-full h-full p-4 flex flex-col">
@@ -57,7 +53,7 @@
                                 class="flex-grow flex md:items-start items-center justify-center"
                             >
                                 <p
-                                    class="text-base sm:text-xl text-regal-black px-4 text-center"
+                                    class="text-base sm:text-xl text-md text-regal-black px-4 text-center"
                                 >
                                     {project.description}
                                 </p>

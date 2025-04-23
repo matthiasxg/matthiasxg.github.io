@@ -49,29 +49,25 @@
 <div
     class="w-screen min-h-screen flex flex-col items-center text-center text-regal-black bg-regal-white px-4 sm:px-8"
 >
-    <h1
-        class="font-subheading text-5xl sm:text-6xl mb-8 mt-16 sm:mb-16 sm:mt-32"
-    >
+    <h1 class="font-subheading text-5xl sm:text-6xl mb-16 mt-32">
         Experience.
     </h1>
-    <h1 class="font-subheading text-xl mb-8 sm:mb-16">
+    <h1 class="font-subheading text-xl mb-32 sm:mb-16">
         Where I've applied and developed my skills.
     </h1>
-    <div
-        class="flex-grow flex items-center justify-center w-full pb-16 sm:pb-0"
-    >
+    <div class="flex-grow flex items-center justify-center w-full">
         <div
             class="grid grid-cols-[1fr_auto_1fr] text-regal-black font-heading text-base sm:text-xl w-full max-w-4xl"
         >
             <div></div>
-            <div class="h-8 sm:h-16 flex justify-center items-center relative">
+            <div class="h-16 flex justify-center items-center relative">
                 <div class="w-0.5 bg-regal-black h-full absolute"></div>
             </div>
             <div></div>
             {#each educationItems as item}
                 {#if item.align === "left"}
                     <div
-                        class="h-full flex flex-col justify-center text-right pr-4 sm:pr-16"
+                        class="h-full flex flex-col justify-center text-right pr-8 sm:pr-16"
                     >
                         <h1 class="">{item.title}</h1>
                         <p class="text-xs sm:text-sm">{item.institution}</p>
@@ -97,7 +93,7 @@
                         ></div>
                     </div>
                     <div
-                        class="h-full flex flex-col justify-center text-left pl-4 sm:pl-16"
+                        class="h-full flex flex-col justify-center text-left pl-8 sm:pl-16"
                     >
                         <h1>{item.title}</h1>
                         <p class="text-xs sm:text-sm">{item.institution}</p>
@@ -106,7 +102,7 @@
                 {/if}
             {/each}
             <div></div>
-            <div class="h-8 sm:h-16 flex justify-center items-center relative">
+            <div class="h-16 flex justify-center items-center relative">
                 <div class="w-0.5 bg-regal-black h-full absolute"></div>
             </div>
             <div></div>
