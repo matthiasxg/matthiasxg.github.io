@@ -4,7 +4,7 @@
     import confetti from "canvas-confetti";
 
     let contactButton: HTMLElement;
-    const email = "matthias.grill@icloud.com";
+    const email = "contact@matthiasgrill.dev";
     onMount(() => {
         const enterAnimation = () => {
             gsap.to(contactButton, {
