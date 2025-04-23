@@ -54,7 +54,7 @@
                             </h2>
 
                             <div
-                                class="flex-grow flex md:items-top items-center justify-center"
+                                class="flex-grow flex md:items-start items-center justify-center"
                             >
                                 <p
                                     class="text-base sm:text-xl text-regal-black px-4 text-center"
