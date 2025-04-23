@@ -4,7 +4,7 @@
     import confetti from "canvas-confetti";
 
     let contactButton: HTMLElement;
-
+    const email = "matthias.grill@icloud.com";
     onMount(() => {
         const enterAnimation = () => {
             gsap.to(contactButton, {
@@ -20,7 +20,9 @@
             });
         };
 
-        const clickAnimation = () => {
+        const clickAnimation = (e: Event) => {
+            e.preventDefault();
+
             gsap.to(contactButton, {
                 scaleY: 0.9,
                 scaleX: 1.1,
@@ -38,6 +40,10 @@
                 spread: 70,
                 origin: { x, y },
             });
+
+            setTimeout(() => {
+                window.location.href = `mailto:${email}`;
+            }, 500);
         };
 
         contactButton.addEventListener("mouseenter", enterAnimation);
@@ -62,12 +68,12 @@
                 >together</span
             >.
         </h1>
-        <a
+        <p
             bind:this={contactButton}
-            href="mailto:matthias.grill@icloud.com"
             class="ont-heading bg-regal-black text-regal-white px-4 py-2 font-bold text-xl sm:text-2xl rounded cursor-pointer"
-            >Contact me</a
         >
+            Contact me
+        </p>
     </div>
 
     <footer class="w-full py-8 bg-regal-white text-regal-black">
