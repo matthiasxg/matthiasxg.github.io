@@ -14,7 +14,7 @@
             align: "left",
         },
         {
-            title: "Civil Service",
+            title: "Civilian service",
             institution: "Red Cross",
             period: "2019 - 2020",
             align: "right",
@@ -32,13 +32,13 @@
             align: "right",
         },
         {
-            title: "Medical Data Systems Developer",
+            title: "Medical Systems Developer",
             institution: "Medical University Graz",
             period: "2024 - present",
             align: "left",
         },
         {
-            title: "Master's Programme Computer Science",
+            title: "Master's Programme Computer Science in Information Security",
             institution: "Technical University Graz",
             period: "2024 - present",
             align: "right",
