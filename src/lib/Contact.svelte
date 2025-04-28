@@ -80,15 +80,18 @@
         <div
             class="container mx-auto flex flex-col sm:flex-row justify-between items-center gap-4"
         >
-            <div class="text-xs text-center sm:text-left">
+            <div class="text-s text-center sm:text-left">
                 © {new Date().getFullYear()} Matthias Grill. All rights reserved.
             </div>
-            <div class="flex gap-4 text-xs">
-                <a href="https://github.com/matthiasxg" class="hover:underline"
-                    >GitHub</a
+            <div class="flex gap-4 text-s">
+                <a
+                    href="https://github.com/matthiasxg"
+                    target="_blank"
+                    class="hover:underline">GitHub</a
                 >
                 <a
                     href="https://www.linkedin.com/in/matthias-grill-83686a213/"
+                    target="_blank"
                     class="hover:underline">LinkedIn</a
                 >
             </div>

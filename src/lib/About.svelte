@@ -53,7 +53,7 @@
         Experience.
     </h1>
     <h1 class="font-subheading text-xl mb-32 sm:mb-16">
-        Where I've applied and developed my skills.
+        Where I've developed and applied my skills.
     </h1>
     <div class="flex-grow flex items-center justify-center w-full">
         <div
